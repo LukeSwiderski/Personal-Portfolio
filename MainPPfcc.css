@@ -1,1 +1,44 @@
+/* #014d91 #01915a */
 
+body {
+
+}
+
+header {
+  background: linear-gradient(to right bottom, #293f50, #648880);
+  margin-right: auto;
+  margin-left: auto;
+  padding: ;
+  overflow: hidden;
+}
+header h1 {
+  color:white;
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+nav {
+  width: 35%;
+  float: right;
+
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: left;
+  margin-right: 5px;
+}
+nav a {
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 75px;
+   }
+
+   nav a:hover {
+      color: #c2d5d6;
+    }
+footer {
+  background: linear-gradient(to right bottom, #648880, #293f50);
+}
